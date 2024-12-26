@@ -693,6 +693,7 @@ class MapboxNavigationView(private val context: ThemedReactContext): FrameLayout
         .coordinatesList(coordinates)
         .waypointIndicesList(indices)
         .waypointNamesList(names)
+        .profile(DirectionsCriteria.PROFILE_WALKING)
         .language(locale.language)
         .steps(true)
         .voiceInstructions(true)
